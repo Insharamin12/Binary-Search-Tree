@@ -73,6 +73,11 @@ nodes = [50, 30, 20, 40, 70, 60, 80]
 for node in nodes:
     bst.insert(node)
 
+print("Inorder traversal:", bst.inorder_traversal())
+print("Search for 40:", bst.search(40))
+bst.delete(40)
+print("Inorder traversal after deleting 40:", bst.inorder_traversal())
+
 
 
 
